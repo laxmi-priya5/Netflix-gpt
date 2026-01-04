@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Login from './Login'
 import Browse from './Browse'
-import Header from './Header.js'
+import Header from './Header.jsx'
 import { Outlet, useNavigate } from 'react-router-dom'
 import {  onAuthStateChanged } from "firebase/auth";
 import { auth } from '../utils/firebase.js'
